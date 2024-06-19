@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Filtro JS Vanilla</title>
+
+    
+</head>
+<body>
+<main>
+    <h1>Protectora de animales</h1>
+
+    <nav>
+        <!-- Capturar estos BOTONES -->
+        <button id="filtro-todo">Todo</button>
+        <button id="filtro-perros">Perros</button>
+        <button id="filtro-gatos">Gatos</button>
+        <button id="filtro-aves">Aves</button>
+    </nav>
+    <section>
+        <h2 class="animales">Animales en adopción</h2>
+
+        <div >
+            <!-- OBTENER LOS ARTICLE -->
+            <article class="articulo" title="perros">
+                <h2>Jaime</h2>
+                <a href="img/perros/perro1-gr-opt.jpg" data-lightbox="perros">
+                <img src="img/perros/perro1-pq-opt.jpg" alt="perro pequeño">
+            </a>
+            </article>
+            <article class="articulo" title="perros">
+                <h2>Lola</h2>
+                <a href="img/perros/perro2-gr-opt.jpg" data-lightbox="perros">
+                <img src="img/perros/perro2-pq-opt.jpg" alt="perro grande">
+            </a>
+            </article>
+            <article class="articulo" title="perros">
+                <h2>Brownie</h2>
+                <a href="img/perros/perro3-gr-opt.jpg" data-lightbox="perros">
+                <img src="img/perros/perro3-pq-opt.jpg" alt="Perro con la lengua fuera">
+            </a>
+            </article>
+            <article class="articulo" title="perros">
+                <h2>Chuchu</h2>
+                <a href="img/perros/perro4-gr-opt.jpg" data-lightbox="perros">
+                <img src="img/perros/perro4-pq-opt.jpg" alt="Perro con collar">
+            </a>
+            </article>
+            <article class="articulo" title="gatos">
+                <h2>Manuel</h2>
+                <a href="img/gatos/gato1-gr-opt.jpg" data-lightbox="gatos">
+                <img src="img/gatos/gato1-pq-opt.jpg" alt="gato naranja">
+            </a>
+            </article>
+            <article class="articulo" title="gatos">
+                <h2>Gato Chismes</h2>
+                <a href="img/gatos/gato2-gr-opt.jpg" data-lightbox="gatos">
+                <img src="img/gatos/gato2-pq-opt.jpg" alt="gato asomado">
+            </a>
+            </article>
+            <article class="articulo" title="gatos">
+                <h2>Pelusa</h2>
+                <a href="img/gatos/gato4-gr-opt.jpg" data-lightbox="gatos">
+                <img src="img/gatos/gato4-pq-opt.jpg" alt="gato con una mariposa en la nariz">
+            </a>
+            </article>
+            <article class="articulo" title="aves">
+                <h2>Plumas</h2>
+                <a href="img/aves/ave1-gr-opt.jpg" data-lightbox="aves">
+                <img src="img/aves/ave1-pq-opt.jpg" alt="papagayo">
+            </a>
+            </article>
+            <article class="articulo" title="aves">
+                <h2>Snow</h2>
+                <a href="img/aves/ave2-gr-opt.jpg" data-lightbox="aves">
+                <img src="img/aves/ave2-pq-opt.jpg" alt="cacatua">
+            </a>
+            </article>
+
+
+        </div>
+    </section>
+</main>
+
+
+    <script src="js/filtrar.js"></script>
+</body>
+</html>
